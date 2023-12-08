@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Film Director Dashboard</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav {
+            background-color: #555;
+            color: white;
+            padding: 0px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+        }
+
+        section {
+            margin: 10px 20px; 
+        }
+
+        footer {
+            position: fixed;
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            width: 100%;
+            bottom:0px ;
+        }
+    .taxi{
+    position: fixed;
+    top: 173px; 
+    right: 20px; 
+    height:270px; 
+    transition: transform 0.4s ease-in-out;
+    box-shadow: 0 0 20px black;
+    border-radius: 10px;
+    }
+    .taxi:hover{
+        transform:scale(1.1);
+    }
+    .wise{
+          position:fixed;
+          height: 270px;
+          left: 850px;
+          bottom: 200px;
+          transition: transform 0.4s ease-in-out;
+          box-shadow: 0 0 20px black;
+    border-radius: 10px;
+    }
+    .wise:hover{
+        transform:scale(1.1);
+    }
+    button {
+    background-color: #555;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-left: -10px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center
+}
+
+button:hover {
+    background-color: #777;
+}
+
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Film Director Dashboard</h1>
+    </header>
+
+    <nav>
+        <button><a href="index.html">Biography</a></button>
+            <button><a href="filmography.html">Filmography</a></button>
+            <button><a href="awards.html">Awards</a></button>
+            <button><a href="contact.html">Contact</a></button>
+    </nav>
+
+    <section id="filmography">
+        <h2>Filmography</h2>
+        <ul>
+            <li>Movie 1 (Year)</li>
+            <li>Movie 2 (Year)</li>
+        </ul>
+        <img class="taxi" src="taxi.jpg" alt="taxi">
+        <img class="wise" src="wise.jpg" alt="wise">
+    </section>
+     <footer>
+        <p>&copy; 2023 Film Director Dashboard</p>
+    </footer>
+</body>
+
+</html>

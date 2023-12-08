@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Film Director Dashboard</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav {
+            background-color: #555;
+            color: white;
+            padding: 0px;
+        }
+        nav a {
+            text-decoration: none;
+            font-size: 20px;
+            color: white;
+        }
+        section{
+            margin: 10px 20px; 
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .martin{
+     float: right;
+    position: fixed;
+    top: 175px; 
+    right: 30px; 
+    height:300px; 
+    border-radius: 10px;
+    box-shadow: 0 0 20px black;
+    transition: transform 0.4s ease-in-out;
+}
+.martin:hover {
+    transform: scale(1.1);
+        }
+#bio{
+    margin-right: 300px;
+}
+button {
+    background-color: #555;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-left: -10px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center
+}
+
+button:hover {
+    background-color: #777;
+}
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Film Director Dashboard</h1>
+    </header>
+
+    <nav>
+            <button><a href="main.html">Biography</a></button>
+            <button><a href="filmography.html">Filmography</a></button>
+            <button><a href="awards.html">Awards</a></button>
+            <button><a href="contact.html">Contact</a></button>
+        
+    </nav>
+
+    <section id="bio">
+        <h2>Biography</h2>
+        <p id="bio">Martin Scorsese (born November 17, 1942, Queens, New York, U.S.) American filmmaker known for his harsh, often violent depictions of American culture. From the 1970s Scorsese created a body of work that was ambitious, bold, and brilliant. But even his most acclaimed films are demanding, sometimes unpleasantly intense dramas that have enjoyed relatively little commercial success. </p>
+        <img class="martin" src="martin.jpg" alt="martin" >
+    </section>
+     <footer>
+        <p>&copy; 2023 Film Director Dashboard</p>
+    </footer>
+</body>
+
+</html>
